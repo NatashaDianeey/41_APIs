@@ -65,6 +65,18 @@ span{
 
 }
 .tarjetaTextoh3Style{
-	background-color: #cccccc;
+	background-color: #fff;
 	border-radius: 4px;
+}
+
+/*.animate{
+
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+    -webkit-transform: rotate(6deg);
+    transform: rotate(6deg);
+}*/
+
+.animate {
+	background-color: #A9A9A9;
 }
