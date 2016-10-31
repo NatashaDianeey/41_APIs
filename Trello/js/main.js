@@ -47,7 +47,7 @@ function guardar() {
 
 	//Crear y asignar atributos
 	var divTarjetaTexto =document.createElement('div');
-		divTarjetaTexto.setAttribute('class', 'fondo');
+		divTarjetaTexto.setAttribute('class', 'fondo animated swing');
 		divTarjetaTexto.setAttribute('id', 'divTarjetaTexto');
 
 
@@ -96,7 +96,7 @@ function guardar() {
 			}	
 
 		var tarjetaTextoDiv = document.createElement('div');
-			tarjetaTextoDiv.setAttribute('class', 'label-default tarjetaTextoh3Style animated swing animated');
+			tarjetaTextoDiv.setAttribute('class', 'label-default tarjetaTextoh3Style animated swing');
 			tarjetaTextoDiv.setAttribute('id', 'tarjetaTextoDivId');
 			tarjetaTextoDiv.id ="tarjetaTextoDivId" + (new Date()).getTime();
 			tarjetaTextoDiv.setAttribute('draggable', 'true');
